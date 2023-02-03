@@ -1,0 +1,46 @@
+.card{
+    width:100%;
+    padding:1rem 0.7rem 1.4rem 0.7rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    display: flex;
+    flex-direction: column;
+    border-radius: 0.2rem;
+    align-items: center;
+}
+.card img{
+    width: 84%;
+    border: 1px solid #fbfbfb;
+    border-radius: 0.1rem;
+}
+.card span{
+    font-size: 1.17rem;
+    font-weight: 600;
+}
+.card>div{
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    align-items: center;
+}
+.card>div>div span{
+    padding: 0.3rem 0.3rem;
+    cursor: pointer;
+}
+.card>div>div{
+    color: white;
+    width: 5.9rem;
+    background: #0e1823;
+    display: flex;
+    align-items: center;
+    gap:0.4rem;
+    justify-content: center; 
+    border-radius: 0.2rem;
+}
+.card button{
+    width: 6rem;
+    padding: 0.6rem 0.2rem;
+    background: #0e1823;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    border: none;
+}

@@ -1,0 +1,76 @@
+.box{
+    display: flex;
+    gap: 3rem;
+    border-bottom: 2px solid #d3d4d5;
+    align-items: center;
+    padding-bottom: 0.5rem;
+    width: 33.6rem;
+}
+.box button{
+    width: 6rem;
+    padding: 0.6rem 0.2rem;
+    background: #0e1823;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    border: none;
+}
+.box img{
+    width: 8rem;
+    height: 8rem;
+    padding-right: 0.1rem;
+    border-right: 1.2px solid  #d3d4d5;
+}
+.box h4{
+    margin-top: 0.2rem;
+    margin-bottom: 0;
+}
+.box h3{
+    margin: 0;
+}
+.box >div{
+    width:32%;
+}
+.box >div+div{
+    color: white;
+    width: 5.9rem;
+    background: #0e1823;
+    display: flex;
+    align-items: center;
+    gap:0.4rem;
+    justify-content: center; 
+    border-radius: 0.2rem;
+}
+.box >div+div span{
+    padding: 0.4rem 0.3rem;
+    cursor: pointer;
+}
+@media only screen and (max-width: 795px) {
+    .box{
+        gap: 2.2rem;
+        border-bottom: 2px solid #d3d4d5;
+        padding-bottom: 0.5rem;
+        width: 28.6rem;
+    }
+}
+@media only screen and (max-width: 550px) {
+    .box{
+        gap: 1rem;
+        border-bottom: 2px solid #d3d4d5;
+        padding:0rem 0.5rem;
+        padding-bottom: 0.5rem;
+        width: 94%;
+    }
+    .box img{
+        width: 5.5rem;
+        height: 5.5rem;
+        padding-right: 0.1rem;
+        border-right: 1.2px solid  #d3d4d5;
+    }
+    .box h3{
+        font-size: 1rem;
+    }
+    .box h4{
+        font-size: 0.9rem;
+    }
+}

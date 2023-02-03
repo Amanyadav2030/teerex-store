@@ -1,0 +1,106 @@
+.search{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.submit svg{
+    font-size: 1.1rem;
+    color:white;
+}
+form input{
+    width: 20vw;
+    border: 1.3px solid black;
+    outline: none;
+    padding: 0.6rem 0.5rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+}
+.search form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:0.2rem
+}
+.submit{
+    padding: 0.6rem 1rem;
+    background: #0e1823;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.2rem;
+}
+.filter {
+    display: none;
+}
+.filterBox{
+    display: none;
+}
+.filterBox >div{
+    display: flex;
+}
+.filterBox span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.box{
+    justify-content: space-between;
+    display:flex;
+}
+.box>div{
+    display: flex;
+    flex-direction: column;
+}
+.box >div div{
+    display: flex;
+    font-size: 0.9rem;
+    gap: 0.2rem;
+    font-weight: 400;
+}
+@media only screen and (max-width: 920px) {
+    form input{
+        width: 30vw;
+        border: 1.3px solid black;
+        outline: none;
+        padding: 0.6rem 0.5rem;
+        border-radius: 0.2rem;
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width: 550px) {
+    form input{
+        width:55vw;
+        border: 1.3px solid black;
+        outline: none;
+        padding: 0.45rem 0.5rem;
+        border-radius: 0.2rem;
+        font-size: 1rem;
+    }
+    .filter svg{
+        font-size: 1.25rem;
+        color: white;
+    }
+    .submit{
+        padding: 0.44rem 0.915rem;
+     }
+    .submit svg{
+        font-size: 1rem;
+        color:white;
+    }
+    .filter{
+        padding: 0.3rem 0.8rem;
+        display: block;
+        background: #0e1823;
+        border: none;
+        cursor: pointer;
+        border-radius: 0.2rem;
+    }
+    .filterBox{
+        display:flex;
+        flex-direction: column;
+        gap: 0.3rem;
+        padding: 1rem;
+        border: 1px solid black;
+        width: 78%;
+        margin: auto;
+        margin-top: 0.2rem;
+        border-radius: 0.2rem;
+    }
+}
